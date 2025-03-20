@@ -30,7 +30,7 @@ const TabIcon = ({
 
   return (
     <View className="size-full justify-center items-center mt-4 rounded-full">
-      <Image className="size-5" src={icon} tintColor="#A8B5DB" />
+      <Image className="size-5" source={icon} tintColor="#A8B5DB" />
     </View>
   );
 };
